@@ -1,0 +1,15 @@
+<link href='http://fonts.googleapis.com/css?family=Griffy' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Snippet' rel='stylesheet' type='text/css'>
+
+
+<div id="title">Bucket List</div>
+<div id="form_elements">
+<%= form_for @bucket_item do |f| %>
+  <%= f.text_field :title, placeholder: "title", autofocus: true %><br>
+  <%= f.text_area :description, placeholder: "description", size: "30x10" %><br>
+  <%= f.submit %>
+<% end %>
+</div>
+<div id="bucket_items">
+<!-- prepend here -->
+</div>

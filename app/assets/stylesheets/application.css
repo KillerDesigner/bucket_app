@@ -1,0 +1,65 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require bootstrap
+ *= require_self
+ *= require_tree .
+ */
+#title
+{
+	font-family: Griffy;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+#form_elements
+{
+	font-family: Griffy;
+	font-size: 20px;
+	max-width: 300px;
+	float: center;
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	margin-left: 100px;
+
+}
+#bucket_items
+{	
+	vertical-align: top;
+	font-family: Snippet;
+	font-size: 15px;
+	max-width: 500px;
+	float: right;
+}
+body
+{	
+	padding-left: 50px;
+	padding-right: 150px;
+	padding: 30px;
+	background-color: #FFA07A;
+}
+.clear 
+{ 
+	clear: both;
+}
+.bucket_item 
+{
+	text-align: left;
+	padding: 20px;
+	margin: 20px;
+	background-color: #FF4500;
+	border-radius: 10px;
+	color: white;
+	width: 300px;
+	float: left;
+}
