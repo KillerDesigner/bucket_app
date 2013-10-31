@@ -7,8 +7,8 @@
 //= require_tree .
 
 var bucket_view = _.template('<div id="<%= id %>" class="bucket_item"><%= title %> -- <%= description %> '+
-							 '<br> <input type="checkbox" <%= completed? "checked":"" %> >' + 
-							 ' <button data-method="delete" value="delete">Delete</button></div>');
+							 '<br> <input type="checkbox" <%= completed? "checked":"" %> > completed? ' + 
+							 ' <button data-method="delete" value="delete" id="del_button">Delete</button></div>');
 
 
 var updateBucket = function(id, method, data) {
